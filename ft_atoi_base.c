@@ -9,7 +9,8 @@
 /*   Updated: 2020/12/10 12:34:17 by araramya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdio.h>
+#include "minitalk.h"
+
 int		ft_strlen(char *str)
 {
 	int len;
@@ -93,8 +94,3 @@ int		ft_atoi_base(char *str, char *base)
 	}
 	return (result * sign);
 }
-
-// int main()
-// {
-// 	printf("%c\n", ft_atoi_base("01011001", "01"));
-// }
