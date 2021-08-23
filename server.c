@@ -21,7 +21,8 @@ void get_str(int signum)
              c = ft_atoi_base(msg.str, "01");
         
                 write(1, &c, 1);
-                msg.i = 0;           
+                msg.i = 0;       
+               // free(msg.str)   ; 
          }
     
 }

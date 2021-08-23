@@ -24,9 +24,13 @@ void ft_sendmessage(int pid, char *str)
 
 int main(int argc, char **argv)
 {
+    if(argc != 3)
+    {
+        write(1, "ERROR: Usage client <PID> <MESSAGE>\n", 36);
+        return (1);
+    }
     int pid;
     pid = ft_atoi(argv[1]);
-
-    if(argc == 3)
-        ft_sendmessage(pid, argv[2]);
+    ft_sendmessage(pid, argv[2]);
+    return (0);
 }
