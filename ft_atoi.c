@@ -46,5 +46,6 @@ long			ft_atoi(const char *str)
 		i++;
 	}
 	return (result * sign);
+	
 }
 

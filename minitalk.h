@@ -15,5 +15,5 @@ typedef struct s_message
     char *str;
     int i;
 }             t_message;
-int		ft_atoi_base(char *str, char *base);
+
 #endif

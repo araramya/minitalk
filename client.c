@@ -33,4 +33,5 @@ int main(int argc, char **argv)
     pid = ft_atoi(argv[1]);
     ft_sendmessage(pid, argv[2]);
     return (0);
+    
 }

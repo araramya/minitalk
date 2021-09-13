@@ -24,7 +24,6 @@ void get_str(int signum)
                 msg.i = 0;       
                // free(msg.str)   ; 
          }
-    
 }
 
 int main()

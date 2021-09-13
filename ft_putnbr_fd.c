@@ -28,4 +28,5 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd(n / 10, fd);
 	if (n != -2147483648)
 		ft_putchar_fd(n % 10 + '0', fd);
+		
 }
